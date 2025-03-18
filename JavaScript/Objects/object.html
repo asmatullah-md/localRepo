@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        let product = {
+           company: 'Nike',
+           price: '3299',
+           item_name: 'shoe',
+        };
+        // console.log(product);
+        // console.log(product.company);
+        // console.log(product.price);
+        // console.log(product.item_name);
+        // product.company = 'Nykee'
+        // console.log(product.company);
+
+       //console.log(product['company']);   // use square bracket for dash in between a word. [eg:  item-name]
+
+        // delete product.company;
+        // console.log(product);
+
+
+        // let product = {
+        //    company: 'Nike',
+        //    price: '3299',
+        //    item_name: 'shoe',
+        //    displayPrice: function(){
+        //     console.log(`Price of the product is ${this.price}`)
+        //    }    
+        // };
+
+        // product.displayPrice();
+        // console.log()
+        // Math.random()
+
+
+        // console.log('Hello Asmat'.replace('Hello','Md'));
+
+
+        // let a = 5;
+        // let b = a;
+        // console.log(`a=${a}, b=${b}`);
+        // a = 7;
+        // console.log(`a=${a}, b=${b}`);
+
+
+        //Object Reference
+        // let x = {num: 5};                 
+        // let y = x;
+        // console.log(`x=${x.num}, y=${y.num}`);
+        // x.num = 8;
+        // console.log(`x=${x.num}, y=${y.num}`);
+
+        // let p = {pop: 'asmat'};
+        // let q = {pop: 'asmat'}; //p
+        // console.log(p == q);
+
+
+        //Object Shortcuts:- Destructing , is same as
+        let {company, price} = product;
+        console.log(company);
+        console.log(price);
+    </script>
+</body>
+</html>

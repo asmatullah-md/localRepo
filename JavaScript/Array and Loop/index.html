@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        //let numbers = [1,2,5,24,5,9,7];
+        // console.log(numbers);
+        // console.log(numbers[5]);
+
+        //let num = [5, true, null, 'Asmat'];
+        // console.log(num[2]);
+        // console.log(typeof num);
+
+        // let obj = {asd: 87};
+        // console.log(Array.isArray(num));
+        // console.log(Array.isArray(obj));
+
+        let arr = [1,5,6,7,5,4,8];
+        console.log(arr);
+        // arr.push(0);    // add at last element
+        // console.log(arr);
+        // arr.pop();       //remove at last element
+        // //   [OR]
+        // console.log('popped ' + arr.pop());
+        // console.log(arr);
+
+        // arr.unshift(2);   // add at 1st element
+        // console.log(arr);
+        // arr.shift();       // remove at 1st element
+        // console.log(arr);
+
+        // arr.splice(1, 3);   //that's mean delete from after 2nd index three element
+        // console.log(arr);
+
+        //console.log(arr.toString());
+
+        // arr.sort();
+        // console.log(arr);    //for arrange in a sequence
+
+        //console.log(arr.valueOf());   // get array itself
+
+        let arr2 = arr;    // reference
+        arr2[0] = 11;     //1 is replace from 11 in index 0
+        console.log(arr);
+
+        let [a,b,c,d] = arr;   // De-structuring
+        console.log(a + " " + b + " " + c + ' ' + d);
+    </script>
+</body>
+</html>

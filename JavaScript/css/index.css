@@ -1,0 +1,18 @@
+.bag{
+    background-color: greenyellow;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.wishlist{
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 5px 25px;
+    border-radius: 7px;
+}
+.press{
+    color: brown;
+}
+#press1{
+    color: blue;
+}

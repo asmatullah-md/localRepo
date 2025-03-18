@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Advance Functions</title>
+</head>
+<body>
+    <button id="my-button">Click Me</button>
+    <script>
+        // // Event Listener.
+        // let buttonElement = document.querySelector('#my-button');
+        // let behaviour = event => console.log('press');
+        // buttonElement.addEventListener('click', behaviour);
+
+        // let printDate = event => console.log(new Date());
+        // buttonElement.addEventListener('click', printDate);
+        //buttonElement.removeEventListener('click', behaviour);
+
+
+
+        // //for Each loop
+        // let arr = [4,5,855,2];
+        // // for(let i=0; i<arr.length; i++){
+        // //     console.log(arr[i]);
+        // // }
+        // //        [OR]
+        // //arr.forEach((num) => console.log(num));
+
+        // function search(arr, num){
+        //     for(let i=0; i<arr.length; i++){
+        //         if(arr[i] === num){
+        //             console.log(`Element found at: ${i}`);
+        //             return;
+        //         }
+        //     }
+        //     console.log('Element not found');
+        // }
+        // search(arr, 855);
+        // // forEach loop in return statement behave like a continue
+        
+
+
+        //Array Method: 1. Filter method
+        //              2. Map method
+
+
+        
+        
+        // Anonymous function as values
+
+        // let sum = function(n1, n2){
+        //     return n1+n2;
+        // };
+        // let newSum = sum;
+        // console.log(sum(3, 7));
+        // console.log(newSum(2, 3));
+
+
+        // let sumThreeNumbers = function(n1, n2, n3, sumTwoNumbers){
+        //     let sum1 = sumTwoNumbers(n1, n2);
+        //     return sumTwoNumbers(sum1, n3);
+        // }
+        // console.log(sumThreeNumbers(3, 5, 7, sum));
+
+        // console.log(sumThreeNumbers);
+        // console.log(typeof sumThreeNumbers);
+
+
+        
+        // let sum = (n1, n2) => {       // Arrow function
+        //     return n1+n2;
+        // };
+        // console.log(sum(3, 7));
+
+
+        // let square = (num) =>{
+        //     return num*num;
+        // }
+        // console.log(square(12));
+        //        [OR]
+        // let square = num => num*num;
+        // console.log(square(12));
+
+
+
+        //setTimeout & setInterval
+
+        //let alarm = () => console.log('Good Morning');
+        // setTimeout(alarm, 5000);
+        // console.log('Alarm set');
+        // let timerId = setTimeout(alarm, 2000);
+        // console.log(`Alarm set with timerId: ${timerId}`);
+        //clearTimeout(timerId);
+
+        // let alarm = () => console.log(`Good Morning ${new Date()}`);
+        // let intervalId = setInterval(alarm, 2000);
+        // // clearInterval(intervalId);
+        // setTimeout(() => clearInterval(intervalId), 6000);
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+.bag{
+    background-color: greenyellow;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+}
+.wishlist{
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 5px 35px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.sale-item{
+    background-color: greenyellow;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+}

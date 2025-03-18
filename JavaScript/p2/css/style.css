@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+   height: 65px;
+   /*background-color: red;*/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-left{
+    font-size: 18px;
+    display: flex;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 75px;
+    font-size: 13px;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right{
+
+}
+.content{
+    height: 95px;
+    background-color: blue;
+}
+.footer{
+    height: 50px;
+    background-color: blueviolet;
+}

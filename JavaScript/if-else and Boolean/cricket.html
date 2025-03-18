@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cricket Game</title>
+    <style>
+        body{
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bat Ball Stump Game</h2>
+    <button onclick="
+    console.log('you have chose bat');
+    //this will generate random no. between 0 and 3
+    let randomNumder = Math.random() * 3;
+    let computerChoise;
+    if(randomNumder > 0 && randomNumder <= 1){
+        computerChoise = 'Bat';
+         console.log('computer choise is Bat');
+    }
+    else if(randomNumder > 1 && randomNumder <= 2){
+        computerChoise = 'Ball';
+        console.log('computer choise is Ball');
+    }
+    else{
+        computerChoise = 'Stump';
+        console.log('computer choise is Stump');
+    }  
+                            //console.log(`computer choise is ${computerChoise}`)
+    if(computerChoise === 'Ball'){
+        console.log('User won');
+    } else if(computerChoise === 'Bat'){
+        console.log(`It's a tie`);
+    } else if(computerChoise === 'Stump'){
+        console.log('computer has won');
+    }   ">Bat</button>
+
+
+
+    <button onclick="
+    console.log('you have chose ball');
+    //this will generate random no. between 0 and 3
+     randomNumder = Math.random() * 3;
+     //computerChoise;
+    if(randomNumder > 0 && randomNumder <= 1){
+        computerChoise = 'Bat';
+         console.log('computer choise is Bat');
+    }
+    else if(randomNumder > 1 && randomNumder <= 2){
+        computerChoise = 'Ball';
+        console.log('computer choise is Ball');
+    }
+    else{
+        computerChoise = 'Stump';
+        console.log('computer choise is Stump');
+    }  
+                              //console.log(`computer choise is ${computerChoise}`)
+    if(computerChoise === 'Ball'){
+        console.log(`It's a tie`);
+    } else if(computerChoise === 'Bat'){
+        console.log('computer has won');
+    } else if(computerChoise === 'Stump'){
+        console.log('user won');
+    }   ">Ball</button>
+
+
+
+    <button onclick="
+    console.log('you have chose stump');
+    //this will generate random no. between 0 and 3
+      randomNumder = Math.random() * 3;
+      //computerChoise;
+    if(randomNumder > 0 && randomNumder <= 1){
+        computerChoise = 'Bat';
+         console.log('computer choise is Bat');
+    }
+    else if(randomNumder > 1 && randomNumder <= 2){
+        computerChoise = 'Ball';
+        console.log('computer choise is Ball');
+    }
+    else{
+        computerChoise = 'Stump';
+        console.log('computer choise is Stump');
+    }  
+                                //console.log(`computer choise is ${computerChoise}`)
+
+    if(computerChoise === 'Ball'){
+        console.log('computer has won');
+    } else if(computerChoise === 'Bat'){
+        console.log('User won');
+    } else if(computerChoise === 'Stump'){
+        console.log(`It's a tie`);
+    }   ">Stump</button>
+</body>
+</html>
