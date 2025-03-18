@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <ol type = 'i'>
+        <li>HTML</li>
+        <ol>              <!--Nested OL(ordered list)-->
+            <li>L1</li>
+            <li>L2</li>
+        </ol>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <ul type ='I'>     <!--UL(unorderd list)-->
+        <li>House</li>
+        <li>Room</li>
+    </ul><hr>
+
+    <!--Tables-->
+    <table border="5">
+        <caption>My Informations</caption>
+        <tr>
+            <th colspan="3">I am confident</th>     
+        </tr>
+        <tr>
+            <th>Language</th>
+            <th>Competency</th>
+            <th>Years</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>6/10</td>
+            <td>1/2</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>8/10</td>
+            <td>1/4</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="/contact-me">
+        <label for="email">UserName:</label>
+        <input type="text" id="email" placeholder="email id" required="true"><br>
+
+        <label for="user-password">Password:</label>
+        <input type="password" id="password"><br>
+        
+        <label for="date">Date:</label>
+        <input type="date"><br>
+
+        File: <input type="file"><br>
+        color: <input type="color"><br>
+        Range: <input type="range"><br>
+        <!-- Botton: <input type="button" value="click"><br> -->
+         <button id="click">click-me</button><br>
+        
+        <!--Radio button-->
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male:</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female:</label><br>
+        <input type="submit"><br>
+
+        <!--checkbox-->
+        <label for="HTML">HTML</label>
+        <input type="checkbox" name="Language" id="HTML" value="HTML"><br>
+        <label for="CSS">CSS</label>
+        <input type="checkbox" name="Language" id="CSS" value="CSS"><br>
+        <label for="C">C</label>
+        <input type="checkbox" name="Language" id="C" value="C">
+        <br>
+        <!--Select-->
+        <label for="country">Select your country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Singapore">Singapore</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <br>
+        <!--Textarea-->
+        <textarea name="Poem" id="Poem" cols="15" rows="5">
+            Write a Poem
+        </textarea>
+    </form>
+    <br>
+</body>
+     <!--Use iframe-->
+     <iframe width="300" height="200" src="https://www.youtube.com/embed/X-j1fmzjrNM?si=TzAHExcjoqW9HsG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</html>
