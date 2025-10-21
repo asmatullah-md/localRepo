@@ -32,9 +32,10 @@ int main(){
     t1.name = "Asmatullah";
     t1.subject = "C++";
     t1.dept = "IT";
-    t1.setSalary(25000);
+    t1.setSalary(50000);
 
     cout<< t1.name <<endl;
     cout<< t1.getSalary() <<endl;
     return 0;
+
 }
